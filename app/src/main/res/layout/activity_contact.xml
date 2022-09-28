@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcontact"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="150dp"
+        app:srcCompat="@drawable/show" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are ready to help you"
+        android:textAlignment="center"
+        android:textColor="#FF1616"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Service hour is"
+        android:textAlignment="center"
+        android:textColor="#05F0D5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday-Friday(9:00am-10:00pm)"
+        android:textAlignment="center"
+        android:textColor="#FCFBFB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday-Saturday(9:00am-4:00pm)"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Powered By Reuven And Vitaly"
+        android:textAlignment="center"
+        android:textColor="@color/color_preloader_end"
+        android:textSize="28sp" />
+
+
+</LinearLayout>
